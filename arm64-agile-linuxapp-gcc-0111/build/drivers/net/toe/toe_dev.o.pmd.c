@@ -1,0 +1,1 @@
+const char net_toe_pmd_info[] __attribute__((used)) = "PMD_INFO_STRING= {\"name\" : \"net_toe\", \"params\" : \"pf=<int> vf=<int> queues=<int> ctl_queues=<int> f_queues=<int> vmac=<mac addr> \", \"pci_ids\" : []}";

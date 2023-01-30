@@ -1,0 +1,6 @@
+DPDK_20.0 {
+    global:
+	rte_pmd_toe_mbuf_process;
+	
+	local: *;
+};

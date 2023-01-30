@@ -1,0 +1,1 @@
+const char net_agiep_pmd_info[] __attribute__((used)) = "PMD_INFO_STRING= {\"name\" : \"net_agiep\", \"params\" : \"frep=<string> pf=<int> vf=<int> queues=<int> vmac=<mac addr> accel=<string> packed=<string> vport=<int> portnum=<int> mtu=<int>\", \"pci_ids\" : []}";

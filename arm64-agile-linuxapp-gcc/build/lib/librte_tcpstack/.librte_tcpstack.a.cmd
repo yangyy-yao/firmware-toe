@@ -1,0 +1,1 @@
+cmd_librte_tcpstack.a = ar crDs librte_tcpstack.a eth_in.o eth_out.o ip_in.o ip_out.o tcp_in.o tcp_out.o tcp_stream.o tcp_util.o tcp_rb_frag_queue.o tcp_ring_buffer.o tcp_send_buffer.o tcp_sb_queue.o tcp_stream_queue.o libccp.o machine.o serialize.o ccp.o ccp_priv.o clock.o pacing.o debug.o config.o api.o eventpoll.o socket.o timer.o addr_pool.o fhash.o memory_mgt.o 

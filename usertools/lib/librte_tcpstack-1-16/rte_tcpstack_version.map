@@ -1,0 +1,21 @@
+DPDK_20.0 {
+	global:
+
+	SendTCPPacket;
+	CreateTCPStream_by_port;
+	FlushTCPSendingBuffer;
+	RBRemove_no_copy;
+	RBInit_no_copy;
+	RBPut_no_copy;
+	ValidateSequence;
+	EnqueueACK;
+	ProcessACK;
+	WriteTCPACKList;
+	WriteTCPDataList;
+	CheckRtmTimeout;
+	WritePacketsToChunks;
+	InitializeMTCPManagerPerCore;
+
+	local: *;
+};
+
